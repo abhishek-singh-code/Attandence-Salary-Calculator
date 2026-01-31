@@ -18,8 +18,7 @@ else:
 
     print(f"\nEmployee Name   : {name}")
     print(f"Monthly Salary  : ₹{monthly_salary}")
-
-absent_days = int(input("Enter Total Absent Days: "))
+    absent_days = int(input("Enter Total Absent Days: "))
 
 if(absent_days>working_day or absent_days<0):
     print("\nError: Absent days must be between 0 and 26")
